@@ -1,40 +1,93 @@
 menu:
-  Docs: /docs/
-  API: /api/classes/Hexo.html
-  News: /news/
-  Plugins: https://github.com/tommy351/hexo/wiki/Plugins
-  Themes: https://github.com/tommy351/hexo/wiki/Themes
+  Git Basics: /git-basics
+  Git Tips: /git-tips
+  More Workshops: /workshops
 
-doc_sidebar:
-  Getting Started:
-    Overview: index.html
-    Setup: setup.html
-    Configuration: configuration.html
-    Commands: commands.html
-    Migration: migration.html
-  Basic Usage:
-    Writing: writing.html
-    Drafts: drafts.html
-    Generating: generating.html
-    Tag Plugins: tag-plugins.html
-    Server: server.html
-    Deployment: deployment.html
-  Customization:
-    Permalinks: permalinks.html
-    Themes: themes.html
-    Variables: variables.html
-    Pagination: pagination.html
-    Helpers: helpers.html
-    Plugins: plugins.html
-  Advanced:
-    Models: models.html
-    Events: events.html
-  Miscellaneous:
-    Troubleshooting: troubleshooting.html
-    Contributing: contributing.html
+git_basics_sidebar:
+  Overview:
+    Git in 2 minutes: git-in-2-minutes.html
+    Git Overview: git-overview.html
+    Github Overview: github-overview.html
+  Getting Started: 
+    Git Clients: git-clients.html
+    Configure Git: configure-git.html
+    Create Github account: create-github-account.html
+  Manage your project with Github:
+    Create a Github repository: create-a-github-repository.html
+    Clone the Github repository: clone-the-github-repository.html 
+    Create your project: create-your-project.html
+  Basic Git Workflow:
+    Checking for changes: checking-for-changes.html
+    Staging changes: staging-changes.html
+    Commiting Changes: commiting-changes.html
+    Viewing history: viewing-history.html
+  Branch and Merge:
+    Creating a branch: creating-a-branch.html
+    Merging Changes: merging-changes.html
+    Branching strategies: branching-strageties.html
+  Customising Git further:
+    Aliases for nicer Git output: aliases-for-nicer-git-output.html 
 
-google_analytics: UA-4910098-10
-fb_admins: 100000247608790
-swiftype_key: DDvzs7LQ9kdKssQNQLcv
-twitter: hexojs
-github: hexojs/hexo
+
+git_tips_sidebar:
+  Overview: 
+    Common pitfalls: common-pitfalls.html
+  Creating Clean Commits:
+    Interactive staging: interactive-staging.html
+    Understanding Hunks: understanding-hunks.html
+  Github collaboration:
+    Creating a branch: creating-a-branch.html
+    Merging Changes: merging-changes.html
+    Branching strategies: branching-strageties.html
+  Git workflows:
+    Github workflow: github-workflow.html
+    Git Flow: git-flow.html
+
+heroku_simple_sidebar:
+  Overview:
+    Heroku: git-overview.html
+    Git: git-overview.html
+  Getting Started: 
+    Heroku Account: heroku-account.html
+    Heroku Toolbelt: heroku-toolbelt.html
+    Git client: git-client.html
+  Version with Git:
+    Create a repository: create-a-repository.html
+    Version your code: version-your-code.html
+  Deploy to Heroku:
+    Create an App: create-heroku-app.html
+    Deploy: deploy-to-heroku.html
+    Commiting Changes: commiting-changes.html
+    Viewing history: viewing-history.html
+  Multiple Environments:
+    Single Codebase: single-codebase-for-all-environments.html
+    Creating Environments: creating-multiple-environments.html
+    Config Variables: working-with-config-variables.html
+
+heroku_button_sidebar:
+  Overview:
+    Prerequisites: heroku-button-prerequisits.html
+    Heroku Button: git-overview.html
+  Getting Started: 
+    Heroku Account: heroku-account.html
+    Heroku Toolbelt: heroku-toolbelt.html
+    Git client: git-client.html
+  Version with Git:
+    Create a repository: create-a-repository.html
+    Version your code: version-your-code.html
+  Deploy to Heroku:
+    Checking for changes: checking-for-changes.html
+    Staging changes: staging-changes.html
+    Commiting Changes: commiting-changes.html
+    Viewing history: viewing-history.html
+  Branch and Merge:
+    Creating a branch: creating-a-branch.html
+    Merging Changes: merging-changes.html
+    Branching strategies: branching-strageties.html
+  
+
+google_analytics: 
+fb_admins: 
+swiftype_key: 
+twitter: jr0cket
+github: jr0cket

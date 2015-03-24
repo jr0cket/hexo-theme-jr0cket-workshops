@@ -1,0 +1,8 @@
+<aside id="sidebar-git-tips">
+  <% _.each(theme.git_tips_sidebar, function(menu, title){ %>
+    <strong class="sidebar-title"><%= title %></strong>
+    <% _.each(menu, function(link, text){ %>
+      <a href="<%- url_for('git-tips/' + link) %>" class="sidebar-link<% if (is_current('git-tips/' + link, true)){ %> current<% } %>"><%= text %></a>
+    <% }) %>
+  <% }) %>
+</aside>

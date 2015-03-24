@@ -1,5 +1,5 @@
-logo-width = 127px
-logo-height = 30px
+logo-width = 28px
+logo-height = 32px
 
 #header
   background: #fff
@@ -19,7 +19,7 @@ logo-height = 30px
   hide-text()
   width: logo-width
   height: logo-height
-  image: "images/logo.png" @width @height
+  image: "images/rocket.svg" @width @height
   display: block
 
 #main-nav-toggle
@@ -117,6 +117,12 @@ $header-btn
   &:before
     @extend $icon-font
     content: "\f113"
+
+#twitter-btn
+  @extend $header-btn
+  &:before
+    @extend $icon-font
+    content: "\f099"
 
 #search-btn
   @extend $header-btn
